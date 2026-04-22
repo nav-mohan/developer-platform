@@ -47,13 +47,13 @@ RUN ${PIP} install kim-edn==1.4.1
 RUN ${PIP} install kim-property==2.6.14
 RUN ${PIP} install kim-query==4.0.0
 RUN ${PIP} install simplejson==3.17.2
-RUN ${PIP} install numpy==1.26.4
-RUN ${PIP} install scipy==1.12.0
-RUN ${PIP} install matplotlib==3.8.3
+RUN ${PIP} install numpy==2.0.0
+RUN ${PIP} install scipy==1.13.1
+RUN ${PIP} install matplotlib==3.8.4
 RUN ${PIP} install pymongo==3.11.3
 RUN ${PIP} install montydb==2.5.3
 RUN ${PIP} install pybind11==2.6.2
-RUN ${PIP} install spglib==2.3.1
+RUN ${PIP} install spglib==2.4.0 
 RUN ${PIP} install numdifftools==0.9.41
 RUN ${PIP} install kim-tools==0.4.9
 RUN ${PIP} install kimvv==0.1.10
